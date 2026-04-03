@@ -9,11 +9,11 @@ export function About() {
           <div className="lg:col-span-2">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#a8bfb3] to-[#d4e8df] opacity-30" />
-              <div className="relative w-56 h-56 rounded-full overflow-hidden shadow-xl ring-4 ring-white">
+              <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden shadow-xl ring-4 ring-white">
                 <ImageWithFallback
                   src="/images/about/juliana-machado.png"
                   alt="Juliana Machado"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
