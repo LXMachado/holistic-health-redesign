@@ -21,10 +21,10 @@ export function Header() {
             onClick={() => scrollToSection('hero')}
             className="flex items-center gap-3 group"
           >
-            <LotusLogo size={40} className="group-hover:scale-110 transition-transform" />
-            <div>
-              <div className="text-base sm:text-lg text-[#2c2c2c] leading-tight">Beyond Body</div>
-              <div className="text-[10px] sm:text-xs text-[#6b7c73] -mt-0.5">Holistic Health</div>
+            <LotusLogo size={36} className="group-hover:scale-110 transition-transform" />
+            <div className="flex flex-col">
+              <span className="text-sm text-[#2c2c2c] leading-none">Beyond Body</span>
+              <span className="text-[10px] text-[#6b7c73]">Holistic Health</span>
             </div>
           </button>
 
