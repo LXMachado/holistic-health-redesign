@@ -7,7 +7,7 @@ export function WhyChooseUs() {
         </svg>
       ),
       title: 'Personalized Care',
-      description: 'No cookie-cutter treatments. Every session is designed specifically for your body, goals, and wellness journey.',
+      description: 'Every session is designed specifically for your body, goals, and wellness journey.',
     },
     {
       icon: (
@@ -16,7 +16,7 @@ export function WhyChooseUs() {
         </svg>
       ),
       title: 'Holistic Approach',
-      description: 'We address the whole person — body, nutrition, and movement — to create lasting wellness, not just temporary relief.',
+      description: 'I address the whole person — body, nutrition, and movement — to create lasting wellness, not just temporary relief.',
     },
     {
       icon: (
@@ -25,7 +25,7 @@ export function WhyChooseUs() {
         </svg>
       ),
       title: 'Natural Products',
-      description: 'We use only organic, sustainably sourced oils and products that are gentle on your skin and the environment.',
+      description: 'I use only organic, sustainably sourced oils and products that are gentle on your skin and the environment.',
     },
     {
       icon: (
