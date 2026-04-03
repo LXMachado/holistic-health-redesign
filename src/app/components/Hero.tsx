@@ -72,7 +72,7 @@ export function Hero() {
             <ImageWithFallback
               src="/images/hero/hero.png"
               alt="Calm massage treatment room and therapy session"
-              className="h-[540px] w-full object-cover lg:h-[640px]"
+              className="h-[420px] w-full object-cover sm:h-[480px] lg:h-[640px]"
             />
 
            
