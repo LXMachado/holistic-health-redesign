@@ -34,7 +34,7 @@ export function Testimonials() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="text-sm uppercase tracking-wider text-[#5a7d6e] mb-3">Testimonials</div>
-          <h2 className="text-4xl lg:text-5xl mb-4">What Our Clients Say</h2>
+          <h2 className="text-4xl lg:text-5xl mb-4">What My Clients Say</h2>
           <p className="text-lg text-[#6b7c73]">
             Real stories from real people who've experienced the Beyond Body difference.
           </p>
