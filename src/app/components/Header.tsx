@@ -23,8 +23,8 @@ export function Header() {
           >
             <LotusLogo size={48} className="group-hover:scale-110 transition-transform" />
             <div className="hidden sm:block">
-              <div className="text-lg text-[#2c2c2c]">Beyond Body</div>
-              <div className="text-xs text-[#6b7c73] -mt-1">Holistic Health</div>
+              <div className="text-lg text-[#2c2c2c] leading-tight">Beyond Body</div>
+              <div className="text-xs text-[#6b7c73] -mt-0.5">Holistic Health</div>
             </div>
           </button>
 
