@@ -50,7 +50,7 @@ export function WhyChooseUs() {
           <div className="text-sm uppercase tracking-wider text-[#5a7d6e] mb-3">Why Choose Us</div>
           <h2 className="text-4xl lg:text-5xl mb-4">Wellness That Feels Different</h2>
           <p className="text-lg text-[#6b7c73]">
-             Here's what makes Beyond Body truly unique.
+             Here's what makes Beyond Body Holistic Health truly unique.
           </p>
         </div>
 
