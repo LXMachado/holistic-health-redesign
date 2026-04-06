@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
@@ -6,8 +7,10 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { PrivacyPolicy } from './components/PrivacyPolicy';
+import { TermsOfService } from './components/TermsOfService';
 
-export default function App() {
+function HomePage() {
   return (
     <div className="min-h-screen bg-[#faf9f7]">
       <Header />
@@ -38,5 +41,17 @@ export default function App() {
 
       <Footer />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/privacy" element={<><Header /><PrivacyPolicy /><Footer /></>} />
+        <Route path="/terms" element={<><Header /><TermsOfService /><Footer /></>} />
+      </Routes>
+    </BrowserRouter>
   );
 }

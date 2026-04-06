@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { LotusLogo } from './LotusLogo';
 
 export function Footer() {
@@ -111,8 +112,8 @@ export function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-[#a8bfb3]">
           <p>&copy; 2026 Beyond Body Holistic Health. All rights reserved.</p>
           <div className="flex gap-6">
-            <button className="hover:text-white transition-colors">Privacy Policy</button>
-            <button className="hover:text-white transition-colors">Terms of Service</button>
+            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

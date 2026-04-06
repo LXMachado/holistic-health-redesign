@@ -177,8 +177,8 @@ export function Contact() {
                 Australia
               </p>
               <div className="space-y-2 text-sm opacity-90">
-                <p>Monday - Friday: 9am - 6pm</p>
-                <p>Saturday: 9am - 2pm</p>
+                <p>Monday - Friday: 9am - 5pm</p>
+                <p>Saturday: Closed</p>
                 <p>Sunday: Closed</p>
               </div>
             </div>
