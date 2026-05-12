@@ -15,21 +15,21 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-lg border-b border-[#5a7d6e]/10">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20 lg:h-16">
           {/* Logo */}
           <button
             onClick={() => scrollToSection('hero')}
             className="flex items-center gap-3 group"
           >
-            <LotusLogo size={48} className="group-hover:scale-110 transition-transform" />
+            <LotusLogo size={48} className="group-hover:scale-110 transition-transform lg:scale-90" />
             <div className="flex flex-col">
-              <span className="text-lg text-[#2c2c2c] leading-none">Beyond Body</span>
+              <span className="text-lg lg:text-base text-[#2c2c2c] leading-none">Beyond Body</span>
               <span className="text-xs text-[#6b7c73]">Holistic Health</span>
             </div>
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-6">
             <button
               onClick={() => scrollToSection('about')}
               className="text-[#4a5f56] hover:text-[#5a7d6e] transition-colors"
@@ -56,7 +56,7 @@ export function Header() {
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-6 py-3 bg-[#5a7d6e] text-white rounded-full hover:bg-[#4a6d5e] transition-all hover:scale-105"
+              className="px-5 py-2.5 bg-[#5a7d6e] text-white rounded-full hover:bg-[#4a6d5e] transition-all hover:scale-105"
             >
               Book Now
             </button>

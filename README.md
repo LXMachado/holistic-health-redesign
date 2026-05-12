@@ -4,6 +4,7 @@ A modern, responsive website for holistic wellness services, built with React, V
 
 ## Table of Contents
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -15,6 +16,13 @@ A modern, responsive website for holistic wellness services, built with React, V
 
 ## Overview
 The Holistic Wellness Website Design project aims to create a beautiful, functional online presence for holistic wellness practitioners. The website will showcase services, provide booking capabilities, and offer educational resources.
+
+## Screenshots
+### Desktop and Mobile Mockup
+![Beyond Body desktop and mobile mockup](public/images/screenshots/beyond-body-Desk-mobile-mockup.webp)
+
+### Full Page Design
+![Beyond Body full page design](public/images/screenshots/NovoDesign.png)
 
 ## Features
 - Responsive design for all device sizes
