@@ -22,7 +22,7 @@ export function Header() {
             className="flex items-center gap-3 group"
           >
             <LotusLogo size={48} className="group-hover:scale-110 transition-transform lg:scale-90" />
-            <div className="flex flex-col">
+            <div className="flex flex-col font-logo">
               <span className="text-lg lg:text-base text-[#2c2c2c] leading-none">Beyond Body</span>
               <span className="text-xs text-[#68607a]">Holistic Health</span>
             </div>

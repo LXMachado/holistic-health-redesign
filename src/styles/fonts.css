@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Headings: Cormorant - elegant, soft, expressive */
 h1, h2, h3, h4, h5, h6 {
@@ -8,4 +8,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Body: Inter - clean, highly readable */
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Brand wordmark: Urbanist retains each instance's existing weight. */
+.font-logo {
+  font-family: 'Urbanist', sans-serif;
 }

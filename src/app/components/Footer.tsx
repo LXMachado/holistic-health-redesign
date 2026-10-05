@@ -17,7 +17,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <LotusLogo size={40} />
-              <div>
+              <div className="font-logo">
                 <div className="text-lg">Beyond Body</div>
                 <div className="text-xs text-[#c8bcf7] -mt-1">Holistic Health</div>
               </div>

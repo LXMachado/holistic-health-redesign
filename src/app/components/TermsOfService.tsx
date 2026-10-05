@@ -7,7 +7,7 @@ export function TermsOfService() {
       <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center gap-3 mb-8">
           <LotusLogo size={40} />
-          <div>
+          <div className="font-logo">
             <div className="text-lg text-[#2c2c2c]">Beyond Body</div>
             <div className="text-xs text-[#68607a]">Holistic Health</div>
           </div>
