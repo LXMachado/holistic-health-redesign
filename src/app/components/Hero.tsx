@@ -10,9 +10,9 @@ export function Hero() {
 
   return (
     <section className="relative flex min-h-[88vh] items-center overflow-hidden bg-[#f8f3ee]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(210,176,146,0.24),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(120,149,131,0.18),_transparent_34%),linear-gradient(135deg,_#f8f3ee_0%,_#f4efe9_42%,_#f7f4ef_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(216,195,255,0.38),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(91,43,197,0.16),_transparent_34%),linear-gradient(135deg,_#f8f3ee_0%,_#f6f1ff_42%,_#f8f6ff_100%)]" />
       <div className="absolute left-[-8%] top-16 h-72 w-72 rounded-full bg-[#d5bca3]/35 blur-3xl" />
-      <div className="absolute bottom-[-10%] right-[-4%] h-96 w-96 rounded-full bg-[#9caf9d]/20 blur-3xl" />
+      <div className="absolute bottom-[-10%] right-[-4%] h-96 w-96 rounded-full bg-[#b9a7f5]/25 blur-3xl" />
 
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-14 px-6 py-20 sm:px-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(420px,0.95fr)] lg:px-12 lg:py-24">
         <div className="space-y-8">
@@ -24,7 +24,7 @@ export function Hero() {
             </p>
             <h1 className="max-w-3xl text-5xl leading-[0.94] tracking-[-0.03em] text-[#2f3331] sm:text-6xl lg:text-7xl">
               Reclaim Your Body&apos;s
-              <span className="block text-[#6f7e70] italic"> Natural Balance</span>
+              <span className="block text-[#5b2bc5] italic"> Natural Balance</span>
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-[#5f645f] sm:text-xl">
               Personalized massage therapy, movement guidance, and nutrition support in Waikiki, WA.
@@ -35,7 +35,7 @@ export function Hero() {
           <div className="flex flex-col gap-4 sm:flex-row">
             <button
               onClick={() => scrollToSection('contact')}
-              className="rounded-full bg-[linear-gradient(135deg,#7c8f7e_0%,#5d7264_100%)] px-8 py-4 text-white shadow-[0_20px_40px_rgba(93,114,100,0.22)] transition-all hover:-translate-y-0.5 hover:shadow-[0_24px_46px_rgba(93,114,100,0.28)]"
+              className="rounded-full bg-[linear-gradient(135deg,#7b43dc_0%,#5b2bc5_100%)] px-8 py-4 text-white shadow-[0_20px_40px_rgba(91,43,197,0.22)] transition-all hover:-translate-y-0.5 hover:shadow-[0_24px_46px_rgba(91,43,197,0.28)]"
             >
               Book an Appointment
             </button>
@@ -64,7 +64,7 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="absolute -inset-5 rounded-[3rem] bg-[linear-gradient(145deg,rgba(218,194,168,0.44),rgba(127,163,147,0.16))] blur-2xl" />
+          <div className="absolute -inset-5 rounded-[3rem] bg-[linear-gradient(145deg,rgba(218,194,168,0.44),rgba(91,43,197,0.16))] blur-2xl" />
           <div className="absolute inset-0 rotate-[3deg] rounded-[3rem] bg-[#d8c0a7]/45" />
 
           <div className="relative overflow-hidden rounded-[3rem] shadow-[0_35px_70px_rgba(66,56,47,0.18)]">

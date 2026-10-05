@@ -39,17 +39,17 @@ export function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#e8f4f0] via-white to-[#f5f5f3] relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#f0ecff] via-white to-[#f8f6ff] relative overflow-hidden">
       {/* Organic background shapes */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#a8bfb3] rounded-full opacity-10 blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#5a7d6e] rounded-full opacity-10 blur-3xl" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#b9a7f5] rounded-full opacity-10 blur-3xl" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#5b2bc5] rounded-full opacity-10 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="text-sm uppercase tracking-wider text-[#5a7d6e] mb-3">Why Choose Us</div>
+          <div className="text-sm uppercase tracking-wider text-[#5b2bc5] mb-3">Why Choose Us</div>
           <h2 className="text-4xl lg:text-5xl mb-4">Wellness That Feels Different</h2>
-          <p className="text-lg text-[#6b7c73]">
+          <p className="text-lg text-[#68607a]">
              Here's what makes Beyond Body Holistic Health truly unique.
           </p>
         </div>
@@ -64,19 +64,19 @@ export function WhyChooseUs() {
               {/* Card with organic shape */}
               <div className="relative bg-white rounded-[2rem] p-8 h-full shadow-md hover:shadow-xl transition-all duration-300">
                 {/* Icon */}
-                <div className="inline-flex p-4 bg-gradient-to-br from-[#e8f4f0] to-[#d4e8df] text-[#5a7d6e] rounded-2xl mb-6 group-hover:scale-110 transition-transform">
+                <div className="inline-flex p-4 bg-gradient-to-br from-[#f0ecff] to-[#ddd5ff] text-[#5b2bc5] rounded-2xl mb-6 group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
 
                 {/* Content */}
                 <h3 className="text-xl mb-3">{feature.title}</h3>
-                <p className="text-[#6b7c73] leading-relaxed">
+                <p className="text-[#68607a] leading-relaxed">
                   {feature.description}
                 </p>
               </div>
 
               {/* Decorative element */}
-              <div className="absolute -inset-1 bg-gradient-to-br from-[#a8bfb3] to-[#5a7d6e] rounded-[2rem] -z-10 opacity-0 group-hover:opacity-5 blur transition-opacity" />
+              <div className="absolute -inset-1 bg-gradient-to-br from-[#b9a7f5] to-[#5b2bc5] rounded-[2rem] -z-10 opacity-0 group-hover:opacity-5 blur transition-opacity" />
             </div>
           ))}
         </div>

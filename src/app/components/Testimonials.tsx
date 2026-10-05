@@ -33,9 +33,9 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="text-sm uppercase tracking-wider text-[#5a7d6e] mb-3">Testimonials</div>
+          <div className="text-sm uppercase tracking-wider text-[#5b2bc5] mb-3">Testimonials</div>
           <h2 className="text-4xl lg:text-5xl mb-4">What My Clients Say</h2>
-          <p className="text-lg text-[#6b7c73]">
+          <p className="text-lg text-[#68607a]">
             Real stories from real people who've experienced the Beyond Body difference.
           </p>
         </div>
@@ -43,9 +43,9 @@ export function Testimonials() {
         {/* Featured Testimonial */}
         {featuredTestimonial && (
           <div className="mb-12">
-            <div className="relative bg-gradient-to-br from-[#e8f4f0] to-[#f5f5f3] rounded-[3rem] p-10 lg:p-14 shadow-xl">
+            <div className="relative bg-gradient-to-br from-[#f0ecff] to-[#f8f6ff] rounded-[3rem] p-10 lg:p-14 shadow-xl">
               {/* Decorative quote mark */}
-              <div className="absolute top-8 left-8 text-[#5a7d6e] opacity-20">
+              <div className="absolute top-8 left-8 text-[#5b2bc5] opacity-20">
                 <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
                 </svg>
@@ -55,7 +55,7 @@ export function Testimonials() {
                 {/* Image */}
                 <div className="flex-shrink-0">
                   <div className="relative">
-                    <div className="absolute inset-0 bg-[#5a7d6e] rounded-full blur-xl opacity-20" />
+                    <div className="absolute inset-0 bg-[#5b2bc5] rounded-full blur-xl opacity-20" />
                     <ImageWithFallback
                       src={featuredTestimonial.image}
                       alt={featuredTestimonial.name}
@@ -70,8 +70,8 @@ export function Testimonials() {
                     "{featuredTestimonial.content}"
                   </p>
                   <div>
-                    <div className="text-[#5a7d6e]">{featuredTestimonial.name}</div>
-                    <div className="text-sm text-[#6b7c73]">{featuredTestimonial.role}</div>
+                    <div className="text-[#5b2bc5]">{featuredTestimonial.name}</div>
+                    <div className="text-sm text-[#68607a]">{featuredTestimonial.role}</div>
                   </div>
                 </div>
               </div>
@@ -84,17 +84,17 @@ export function Testimonials() {
           {otherTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-[#e8f4f0] rounded-[2rem] p-8 hover:border-[#a8bfb3] transition-colors"
+              className="bg-white border-2 border-[#f0ecff] rounded-[2rem] p-8 hover:border-[#b9a7f5] transition-colors"
             >
               {/* Quote mark */}
-              <div className="text-[#5a7d6e] opacity-30 mb-4">
+              <div className="text-[#5b2bc5] opacity-30 mb-4">
                 <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
                 </svg>
               </div>
 
               {/* Content */}
-              <p className="text-[#4a5f56] leading-relaxed mb-6 italic">
+              <p className="text-[#42306e] leading-relaxed mb-6 italic">
                 "{testimonial.content}"
               </p>
 
@@ -103,11 +103,11 @@ export function Testimonials() {
                 <ImageWithFallback
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-14 h-14 rounded-full object-cover border-2 border-[#e8f4f0]"
+                  className="w-14 h-14 rounded-full object-cover border-2 border-[#f0ecff]"
                 />
                 <div>
-                  <div className="text-[#5a7d6e]">{testimonial.name}</div>
-                  <div className="text-sm text-[#6b7c73]">{testimonial.role}</div>
+                  <div className="text-[#5b2bc5]">{testimonial.name}</div>
+                  <div className="text-sm text-[#68607a]">{testimonial.role}</div>
                 </div>
               </div>
             </div>

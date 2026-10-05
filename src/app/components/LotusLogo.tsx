@@ -6,7 +6,7 @@ interface LotusLogoProps {
 export function LotusLogo({ className = '', size = 80 }: LotusLogoProps) {
   return (
     <img
-      src="/favicon.svg"
+      src="/images/brand/lotus-original.png"
       alt="Beyond Body Holistic Health lotus logo"
       width={size}
       height={size}

@@ -8,7 +8,7 @@ export function About() {
           {/* Image */}
           <div className="lg:col-span-2">
             <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#a8bfb3] to-[#d4e8df] opacity-30" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#b9a7f5] to-[#ddd5ff] opacity-30" />
               <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden shadow-xl ring-4 ring-white">
                 <ImageWithFallback
                   src="/images/about/juliana-machado.png"
@@ -22,12 +22,12 @@ export function About() {
           {/* Content */}
           <div className="lg:col-span-3 space-y-6">
             <div className="space-y-2">
-              <div className="text-sm uppercase tracking-wider text-[#5a7d6e]">Meet Your Therapist</div>
+              <div className="text-sm uppercase tracking-wider text-[#5b2bc5]">Meet Your Therapist</div>
               <h2 className="text-4xl lg:text-5xl">Juliana Machado</h2>
-              <p className="text-lg text-[#6b7c73]">Remedial Massage Therapist Since 2009</p>
+              <p className="text-lg text-[#68607a]">Remedial Massage Therapist Since 2009</p>
             </div>
 
-            <div className="space-y-4 text-[#4a5f56] leading-relaxed">
+            <div className="space-y-4 text-[#42306e] leading-relaxed">
               <p>
                 Remedial Massage Therapist since 2009 with a passion for helping people feel their best and promoting healthy
                 living.
@@ -44,21 +44,21 @@ export function About() {
             </div>
 
             {/* Quote */}
-            <div className="relative mt-8 pl-6 border-l-4 border-[#5a7d6e] py-2">
-              <p className="text-xl italic text-[#5a7d6e]">
+            <div className="relative mt-8 pl-6 border-l-4 border-[#5b2bc5] py-2">
+              <p className="text-xl italic text-[#5b2bc5]">
                 "Helping people feel better in their bodies through treatment, healthy living, and practical care."
               </p>
             </div>
 
             {/* Credentials */}
             <div className="flex flex-wrap gap-3 pt-4">
-              <span className="px-4 py-2 bg-[#e8f4f0] text-[#5a7d6e] rounded-full text-sm">
+              <span className="px-4 py-2 bg-[#f0ecff] text-[#5b2bc5] rounded-full text-sm">
                 Certified Remedial Massage Therapist
               </span>
-              <span className="px-4 py-2 bg-[#e8f4f0] text-[#5a7d6e] rounded-full text-sm">
+              <span className="px-4 py-2 bg-[#f0ecff] text-[#5b2bc5] rounded-full text-sm">
                 Bachelor of Health Science Candidate
               </span>
-              <span className="px-4 py-2 bg-[#e8f4f0] text-[#5a7d6e] rounded-full text-sm">
+              <span className="px-4 py-2 bg-[#f0ecff] text-[#5b2bc5] rounded-full text-sm">
                 Natural Products Focus
               </span>
             </div>

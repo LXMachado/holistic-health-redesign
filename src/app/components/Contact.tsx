@@ -37,17 +37,17 @@ export function Contact() {
   };
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#faf9f7] via-[#e8f4f0] to-white relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#faf9f7] via-[#f0ecff] to-white relative overflow-hidden">
       {/* Organic background shapes */}
-      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-[#5a7d6e] rounded-full opacity-5 blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#a8bfb3] rounded-full opacity-5 blur-3xl" />
+      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-[#5b2bc5] rounded-full opacity-5 blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#b9a7f5] rounded-full opacity-5 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="text-sm uppercase tracking-wider text-[#5a7d6e] mb-3">Get In Touch</div>
+          <div className="text-sm uppercase tracking-wider text-[#5b2bc5] mb-3">Get In Touch</div>
           <h2 className="text-4xl lg:text-5xl mb-4">Start Your Wellness Journey</h2>
-          <p className="text-lg text-[#6b7c73]">
+          <p className="text-lg text-[#68607a]">
             Ready to experience holistic wellness? Reach out and let's begin your personalized journey to feeling better.
           </p>
         </div>
@@ -57,7 +57,7 @@ export function Contact() {
           <div className="lg:col-span-3">
             <form onSubmit={handleSubmit} className="bg-white rounded-[2.5rem] p-8 lg:p-10 shadow-xl space-y-6">
               <div className="space-y-2">
-                <label htmlFor="name" className="block text-sm text-[#5a7d6e]">
+                <label htmlFor="name" className="block text-sm text-[#5b2bc5]">
                   Your Name *
                 </label>
                 <input
@@ -67,14 +67,14 @@ export function Contact() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5a7d6e] transition-colors"
+                  className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5b2bc5] transition-colors"
                   placeholder="Enter your full name"
                 />
               </div>
 
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label htmlFor="email" className="block text-sm text-[#5a7d6e]">
+                  <label htmlFor="email" className="block text-sm text-[#5b2bc5]">
                     Email Address *
                   </label>
                   <input
@@ -84,13 +84,13 @@ export function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5a7d6e] transition-colors"
+                    className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5b2bc5] transition-colors"
                     placeholder="your@email.com"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="phone" className="block text-sm text-[#5a7d6e]">
+                  <label htmlFor="phone" className="block text-sm text-[#5b2bc5]">
                     Phone Number
                   </label>
                   <input
@@ -99,14 +99,14 @@ export function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5a7d6e] transition-colors"
+                    className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5b2bc5] transition-colors"
                     placeholder="04XX XXX XXX"
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="message" className="block text-sm text-[#5a7d6e]">
+                <label htmlFor="message" className="block text-sm text-[#5b2bc5]">
                   Your Message *
                 </label>
                 <textarea
@@ -116,14 +116,14 @@ export function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={6}
-                  className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5a7d6e] transition-colors resize-none"
+                  className="w-full px-6 py-4 bg-[#faf9f7] border-2 border-transparent rounded-2xl focus:outline-none focus:border-[#5b2bc5] transition-colors resize-none"
                   placeholder="Tell us about what you're hoping to address or any questions you have..."
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full px-8 py-5 bg-[#5a7d6e] text-white rounded-full transition-all hover:bg-[#4a6d5e] hover:shadow-lg hover:scale-105"
+                className="w-full px-8 py-5 bg-[#5b2bc5] text-white rounded-full transition-all hover:bg-[#48209d] hover:shadow-lg hover:scale-105"
               >
                 Send Message
               </button>
@@ -139,45 +139,45 @@ export function Contact() {
               <div className="space-y-4">
                 <a
                   href="tel:+61406757655"
-                  className="flex items-center gap-4 text-[#4a5f56] hover:text-[#5a7d6e] transition-colors group"
+                  className="flex items-center gap-4 text-[#42306e] hover:text-[#5b2bc5] transition-colors group"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8f4f0] rounded-xl flex items-center justify-center group-hover:bg-[#5a7d6e] transition-colors">
-                    <svg className="w-5 h-5 text-[#5a7d6e] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#f0ecff] rounded-xl flex items-center justify-center group-hover:bg-[#5b2bc5] transition-colors">
+                    <svg className="w-5 h-5 text-[#5b2bc5] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
-                    <div className="text-sm text-[#6b7c73]">Call</div>
+                    <div className="text-sm text-[#68607a]">Call</div>
                     <div>0406 757 655</div>
                   </div>
                 </a>
 
                 <a
                   href="sms:+61406757655"
-                  className="flex items-center gap-4 text-[#4a5f56] hover:text-[#5a7d6e] transition-colors group"
+                  className="flex items-center gap-4 text-[#42306e] hover:text-[#5b2bc5] transition-colors group"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8f4f0] rounded-xl flex items-center justify-center group-hover:bg-[#5a7d6e] transition-colors">
-                    <svg className="w-5 h-5 text-[#5a7d6e] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#f0ecff] rounded-xl flex items-center justify-center group-hover:bg-[#5b2bc5] transition-colors">
+                    <svg className="w-5 h-5 text-[#5b2bc5] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                     </svg>
                   </div>
                   <div>
-                    <div className="text-sm text-[#6b7c73]">Text</div>
+                    <div className="text-sm text-[#68607a]">Text</div>
                     <div>0406 757 655</div>
                   </div>
                 </a>
 
                 <a
                   href="mailto:info@beyondbodyholistichealth.com.au"
-                  className="flex items-center gap-4 text-[#4a5f56] hover:text-[#5a7d6e] transition-colors group"
+                  className="flex items-center gap-4 text-[#42306e] hover:text-[#5b2bc5] transition-colors group"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8f4f0] rounded-xl flex items-center justify-center group-hover:bg-[#5a7d6e] transition-colors">
-                    <svg className="w-5 h-5 text-[#5a7d6e] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#f0ecff] rounded-xl flex items-center justify-center group-hover:bg-[#5b2bc5] transition-colors">
+                    <svg className="w-5 h-5 text-[#5b2bc5] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
                   <div>
-                    <div className="text-sm text-[#6b7c73]">Email</div>
+                    <div className="text-sm text-[#68607a]">Email</div>
                     <div className="break-all text-sm">info@beyondbodyholistichealth.com.au</div>
                   </div>
                 </a>
@@ -185,7 +185,7 @@ export function Contact() {
             </div>
 
             {/* Location */}
-            <div className="bg-gradient-to-br from-[#5a7d6e] to-[#4a6d5e] text-white rounded-[2rem] p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-[#5b2bc5] to-[#48209d] text-white rounded-[2rem] p-8 shadow-lg">
               <h3 className="text-2xl mb-4">Visit Us</h3>
               <p className="leading-relaxed mb-6">
                 Waikiki, Western Australia<br />

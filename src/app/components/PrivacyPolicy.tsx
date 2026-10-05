@@ -9,13 +9,13 @@ export function PrivacyPolicy() {
           <LotusLogo size={40} />
           <div>
             <div className="text-lg text-[#2c2c2c]">Beyond Body</div>
-            <div className="text-xs text-[#6b7c73]">Holistic Health</div>
+            <div className="text-xs text-[#68607a]">Holistic Health</div>
           </div>
         </div>
 
         <h1 className="text-3xl font-semibold text-[#2c2c2c] mb-8">Privacy Policy</h1>
         
-        <div className="prose prose-lg text-[#4a5f56] max-w-none space-y-6">
+        <div className="prose prose-lg text-[#42306e] max-w-none space-y-6">
           <p className="text-sm">Last updated: April 2026</p>
 
           <section>
@@ -115,8 +115,8 @@ export function PrivacyPolicy() {
           </section>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-[#5a7d6e]/20">
-          <Link to="/" className="text-[#5a7d6e] hover:text-[#4a6d5e] transition-colors">
+        <div className="mt-12 pt-8 border-t border-[#5b2bc5]/20">
+          <Link to="/" className="text-[#5b2bc5] hover:text-[#48209d] transition-colors">
             ← Back to Home
           </Link>
         </div>
