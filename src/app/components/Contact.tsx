@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+type SubmissionState = 'idle' | 'sending' | 'success' | 'error';
+
 export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -7,25 +9,27 @@ export function Contact() {
     phone: '',
     message: '',
   });
+  const [submissionState, setSubmissionState] = useState<SubmissionState>('idle');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setSubmissionState('sending');
     
     try {
-      const response = await fetch('https://www.beyondbodyholistichealth.com.au/contact.php', {
+      const response = await fetch('/process_form.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData).toString(),
       });
       
       if (response.ok) {
-        alert('Thank you for your message! We\'ll get back to you soon.');
+        setSubmissionState('success');
         setFormData({ name: '', email: '', phone: '', message: '' });
       } else {
-        alert('Failed to send message. Please try again.');
+        setSubmissionState('error');
       }
     } catch (error) {
-      alert('Failed to send message. Please try again.');
+      setSubmissionState('error');
     }
   };
 
@@ -123,10 +127,19 @@ export function Contact() {
 
               <button
                 type="submit"
+                disabled={submissionState === 'sending'}
                 className="w-full px-8 py-5 bg-[#5b2bc5] text-white rounded-full transition-all hover:bg-[#48209d] hover:shadow-lg hover:scale-105"
               >
-                Send Message
+                {submissionState === 'sending' ? 'Sending…' : 'Send Message'}
               </button>
+
+              <p
+                aria-live="polite"
+                className={submissionState === 'error' ? 'text-sm text-red-700' : 'text-sm text-[#42306e]'}
+              >
+                {submissionState === 'success' && "Thank you for your message! We'll get back to you soon."}
+                {submissionState === 'error' && 'We could not send your message. Please try again or email us directly.'}
+              </p>
             </form>
           </div>
 
