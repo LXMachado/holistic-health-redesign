@@ -96,7 +96,7 @@ export function Services() {
 
           <div className="space-y-4 text-[#5f5a68]">
             <p className="text-lg leading-8">
-              <span className="font-logo">Beyond Body Holistic Health</span> offers hands-on treatment for pain, recovery, relaxation, pregnancy,
+              Beyond Body Holistic Health offers hands-on treatment for pain, recovery, relaxation, pregnancy,
               circulation, and overall well-being. The core offer stays premium and editorial, but the tone is now
               warmer and less clinical.
             </p>

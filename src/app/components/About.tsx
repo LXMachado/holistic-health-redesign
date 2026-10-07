@@ -38,7 +38,7 @@ export function About() {
               </p>
               <p>
                 I am skilled in various massage techniques and exclusively use natural products to ensure optimal
-                care. At <span className="font-logo">Beyond Body Holistic Health</span>, every treatment is shaped around the whole person, not just a
+                care. At Beyond Body Holistic Health, every treatment is shaped around the whole person, not just a
                 single symptom.
               </p>
             </div>
