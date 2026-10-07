@@ -21,7 +21,7 @@ export function TermsOfService() {
           <section>
             <h2 className="text-xl font-semibold text-[#2c2c2c] mb-3">1. Acceptance of Terms</h2>
             <p>
-              By accessing and using the Beyond Body Holistic Health website and services, you accept 
+              By accessing and using the <span className="font-logo">Beyond Body Holistic Health</span> website and services, you accept
               and agree to be bound by the terms and provisions of this agreement. If you do not agree 
               to these terms, please do not use our services.
             </p>
@@ -30,7 +30,7 @@ export function TermsOfService() {
           <section>
             <h2 className="text-xl font-semibold text-[#2c2c2c] mb-3">2. Our Services</h2>
             <p>
-              Beyond Body Holistic Health provides holistic health and massage therapy services including 
+              <span className="font-logo">Beyond Body Holistic Health</span> provides holistic health and massage therapy services including
               but not limited to:
             </p>
             <ul className="list-disc pl-6 space-y-2">
@@ -80,7 +80,7 @@ export function TermsOfService() {
             <h2 className="text-xl font-semibold text-[#2c2c2c] mb-3">6. Limitation of Liability</h2>
             <p>
               To the extent permitted by Australian Consumer Law (ACL), we provide services with due 
-              care and skill. Beyond Body Holistic Health accepts liability only for breach of 
+              care and skill. <span className="font-logo">Beyond Body Holistic Health</span> accepts liability only for breach of
               guarantees that cannot be excluded under the ACL. We are not liable for any indirect 
               or consequential losses arising from our services.
             </p>
@@ -90,7 +90,7 @@ export function TermsOfService() {
             <h2 className="text-xl font-semibold text-[#2c2c2c] mb-3">7. Intellectual Property</h2>
             <p>
               All content on this website, including text, images, logos, and designs, is the property 
-              of Beyond Body Holistic Health and is protected by Australian copyright laws. You may 
+              of <span className="font-logo">Beyond Body Holistic Health</span> and is protected by Australian copyright laws. You may
               not reproduce, distribute, or modify any content without our written consent.
             </p>
           </section>

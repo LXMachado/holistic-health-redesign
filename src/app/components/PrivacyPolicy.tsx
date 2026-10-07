@@ -21,7 +21,7 @@ export function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-semibold text-[#2c2c2c] mb-3">Introduction</h2>
             <p>
-              Beyond Body Holistic Health is committed to protecting 
+              <span className="font-logo">Beyond Body Holistic Health</span> is committed to protecting
               your privacy in accordance with the Privacy Act 1988 (Cth) and the Australian Privacy Principles 
               (APPs). This Privacy Policy explains how we collect, use, disclose, and safeguard your personal 
               information.

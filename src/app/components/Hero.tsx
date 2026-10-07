@@ -19,7 +19,7 @@ export function Hero() {
          
 
           <div className="space-y-5">
-            <p className="text-sm uppercase tracking-[0.28em] text-[#7b6553]">
+            <p className="font-logo text-sm uppercase tracking-[0.28em] text-[#7b6553]">
               Beyond Body Holistic Health
             </p>
             <h1 className="max-w-3xl text-5xl leading-[0.94] tracking-[-0.03em] text-[#2f3331] sm:text-6xl lg:text-7xl">
