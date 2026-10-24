@@ -6,14 +6,14 @@ export function About() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
           {/* Image */}
-          <div className="lg:col-span-2">
+          <div className="group lg:col-span-2">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#b9a7f5] to-[#ddd5ff] opacity-30" />
               <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden shadow-xl ring-4 ring-white">
                 <ImageWithFallback
                   src="/images/about/juliana-machado.png"
                   alt="Juliana Machado"
-                  className="w-full h-full object-cover"
+                  className="motion-scale-image w-full h-full object-cover group-hover:scale-[1.04]"
                 />
               </div>
             </div>

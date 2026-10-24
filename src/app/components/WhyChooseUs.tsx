@@ -62,7 +62,7 @@ export function WhyChooseUs() {
               className="relative group"
             >
               {/* Card with organic shape */}
-              <div className="relative bg-white rounded-[2rem] p-8 h-full shadow-md hover:shadow-xl transition-all duration-300">
+              <div className="motion-lift relative h-full rounded-[2rem] bg-white p-8 shadow-md hover:shadow-xl">
                 {/* Icon */}
                 <div className="inline-flex p-4 bg-gradient-to-br from-[#f0ecff] to-[#ddd5ff] text-[#5b2bc5] rounded-2xl mb-6 group-hover:scale-110 transition-transform">
                   {feature.icon}

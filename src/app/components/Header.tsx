@@ -24,7 +24,7 @@ export function Header() {
             <LotusLogo size={48} className="group-hover:scale-110 transition-transform lg:scale-90" />
             <div className="flex flex-col items-center font-logo leading-none">
               <span className="text-[15px] text-[#2c2c2c]">Beyond Body</span>
-              <span className="mt-0.5 text-[15px] text-[#68607a]">Holistic Health</span>
+              <span className="mt-0.5 text-[15px] text-[#2c2c2c]">Holistic Health</span>
             </div>
           </button>
 

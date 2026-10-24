@@ -19,7 +19,7 @@ export function Footer() {
               <LotusLogo size={40} />
               <div className="flex flex-col items-center font-logo leading-none">
                 <div className="text-[15px]">Beyond Body</div>
-                <div className="mt-0.5 text-[15px] text-[#c8bcf7]">Holistic Health</div>
+                <div className="mt-0.5 text-[15px]">Holistic Health</div>
               </div>
             </div>
             <p className="text-sm text-[#c8bcf7] leading-relaxed">

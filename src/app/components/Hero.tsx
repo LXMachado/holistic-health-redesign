@@ -48,22 +48,22 @@ export function Hero() {
           </div>
 
           <div className="grid gap-4 border-t border-[#bfae9b]/25 pt-7 sm:grid-cols-3">
-            <div className="rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
+            <div className="motion-lift rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
               <div className="text-xs uppercase tracking-[0.24em] text-[#8d7662]">Based in</div>
               <div className="mt-2 text-lg text-[#38413d]">Waikiki, Western Australia</div>
             </div>
-            <div className="rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
+            <div className="motion-lift rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
               <div className="text-xs uppercase tracking-[0.24em] text-[#8d7662]">Booking</div>
               <div className="mt-2 text-lg text-[#38413d]">SMS, email, or contact form</div>
             </div>
-            <div className="rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
+            <div className="motion-lift rounded-[1.5rem] bg-white/55 p-4 backdrop-blur-sm">
               <div className="text-xs uppercase tracking-[0.24em] text-[#8d7662]">Signature care</div>
               <div className="mt-2 text-lg text-[#38413d]">Tailored remedial treatments</div>
             </div>
           </div>
         </div>
 
-        <div className="relative">
+        <div className="group relative">
           <div className="absolute -inset-5 rounded-[3rem] bg-[linear-gradient(145deg,rgba(218,194,168,0.44),rgba(91,43,197,0.16))] blur-2xl" />
           <div className="absolute inset-0 rotate-[3deg] rounded-[3rem] bg-[#d8c0a7]/45" />
 
@@ -72,7 +72,7 @@ export function Hero() {
             <ImageWithFallback
               src="/images/hero/hero.png"
               alt="Calm massage treatment room and therapy session"
-              className="h-[420px] w-full object-cover sm:h-[480px] lg:h-[640px]"
+              className="motion-scale-image h-[420px] w-full object-cover group-hover:scale-[1.02] sm:h-[480px] lg:h-[640px]"
             />
 
            

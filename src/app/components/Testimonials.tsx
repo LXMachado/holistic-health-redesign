@@ -84,7 +84,7 @@ export function Testimonials() {
           {otherTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-[#f0ecff] rounded-[2rem] p-8 hover:border-[#b9a7f5] transition-colors"
+              className="motion-lift rounded-[2rem] border-2 border-[#f0ecff] bg-white p-8 transition-colors hover:border-[#b9a7f5]"
             >
               {/* Quote mark */}
               <div className="text-[#5b2bc5] opacity-30 mb-4">

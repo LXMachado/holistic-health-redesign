@@ -1,3 +1,29 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+@layer utilities {
+  /* Keep interaction motion on compositor-friendly properties only. */
+  .motion-lift {
+    transition: transform 220ms ease-out, box-shadow 220ms ease-out;
+  }
+
+  .motion-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  .motion-scale-image {
+    transition: transform 500ms ease-out;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .motion-lift,
+    .motion-scale-image {
+      transition: none;
+    }
+
+    .motion-lift:hover {
+      transform: none;
+    }
+  }
+}
